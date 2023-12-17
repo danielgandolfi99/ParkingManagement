@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="208.0" prefWidth="349.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.parkingmanagement.CloseParking">
+   <children>
+      <Text layoutX="128.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resumo Diário:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="date" layoutX="48.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data da consulta:" />
+      <Text fx:id="carNumbers" layoutX="42.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Número de carros:" />
+      <Text fx:id="amountCollected" layoutX="46.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor arrecadado:" />
+      <Button layoutX="14.0" layoutY="169.0" mnemonicParsing="false" onAction="#onReturn" prefHeight="25.0" prefWidth="58.0" text="Voltar" />
+      <Button layoutX="277.0" layoutY="169.0" mnemonicParsing="false" onAction="#onExit" prefHeight="25.0" prefWidth="58.0" text="Sair" />
+   </children>
+</AnchorPane>

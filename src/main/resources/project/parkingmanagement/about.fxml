@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="223.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.parkingmanagement.About">
+   <children>
+      <Text layoutX="160.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sobre o programa:">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Text layoutX="56.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desenvolvedor: Daniel Gandolfi" />
+      <Text layoutX="55.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data da publicação: 17/12/2023" />
+      <Text layoutX="58.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atividade final da disciplina de Desenvolvimento de Software I" />
+      <Text layoutX="55.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Estudante do IFRS Campus Farroupilha" />
+      <Button layoutX="14.0" layoutY="184.0" mnemonicParsing="false" onAction="#onReturn" prefHeight="25.0" prefWidth="58.0" text="Voltar" />
+   </children>
+</AnchorPane>

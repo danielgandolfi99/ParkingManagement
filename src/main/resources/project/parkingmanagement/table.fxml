@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="527.0" prefWidth="884.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.parkingmanagement.Table">
+    <children>
+        <TableView fx:id="table" layoutX="35.0" layoutY="59.0" prefHeight="410.0" prefWidth="814.0">
+            <columns>
+                <TableColumn fx:id="vehicle_id" prefWidth="50.0" style="-fx-alignment: CENTER;" text="ID" />
+                <TableColumn fx:id="plate" style="-fx-alignment: CENTER;" text="PLACA" />
+                <TableColumn fx:id="manufacturer" prefWidth="90.0" text="MARCA" />
+                <TableColumn fx:id="model" prefWidth="220.0" text="MODELO" />
+                <TableColumn fx:id="year" prefWidth="60.0" style="-fx-alignment: CENTER;" text="ANO" />
+                <TableColumn fx:id="color" prefWidth="70.0" text="COR" />
+                <TableColumn fx:id="entry_time" prefWidth="120.0" style="-fx-alignment: CENTER;" text="DT ENTRADA" />
+                <TableColumn fx:id="exit_time" prefWidth="120.0" style="-fx-alignment: CENTER;" text="DT SAÍDA" />
+            </columns>
+        </TableView>
+        <Text layoutX="360.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tabela de registros do dia:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Button layoutX="15.0" layoutY="488.0" mnemonicParsing="false" onAction="#onReturn" prefHeight="25.0" prefWidth="63.0" text="Voltar" />
+    </children>
+</AnchorPane>
